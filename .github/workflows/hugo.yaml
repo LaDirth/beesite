@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           path: 'themes/yue'
-          repository: 'https://github.com/CyrusYip/hugo-theme-yue.git'
+          repository: 'CyrusYip/hugo-theme-yue'
       
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
