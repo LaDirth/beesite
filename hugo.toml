@@ -3,9 +3,9 @@ languageCode = 'en-us'
 title = 'Hammers and Hives'
 theme = 'yue'
 
-# [caches]
-#   [caches.images]
-#     # dir = ':cacheDir/images'
+[module]
+  [[module.imports]]
+    path = 'https://github.com/CyrusYip/hugo-theme-yue'
 
 [[menu.main]]
 name = "Home"
