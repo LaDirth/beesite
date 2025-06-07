@@ -5,6 +5,9 @@ theme = 'yue'
 
 [module]
   [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    ignoreImports = false
     path = 'https://github.com/CyrusYip/hugo-theme-yue'
 
 [[menu.main]]
