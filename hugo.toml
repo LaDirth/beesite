@@ -3,9 +3,9 @@ languageCode = 'en-us'
 title = 'Hammers and Hives'
 theme = 'yue'
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+# [caches]
+#   [caches.images]
+#     # dir = ':cacheDir/images'
 
 [[menu.main]]
 name = "Home"
