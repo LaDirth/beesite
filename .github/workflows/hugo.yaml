@@ -17,11 +17,11 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           submodules: recursive   # Fetch Hugo themes (true OR recursive)
       
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-          path: 'themes/yue'
-          repository: 'CyrusYip/hugo-theme-yue'
+      # - uses: actions/checkout@v4
+      #   with:
+      #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      #     path: 'themes/yue'
+      #     repository: 'CyrusYip/hugo-theme-yue'
       
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
